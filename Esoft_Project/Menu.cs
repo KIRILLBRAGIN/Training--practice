@@ -15,7 +15,10 @@ namespace Esoft_Project
         public Menu()
         {
             InitializeComponent();
-            if (FormAuthorization.users.type == "agent") buttonOpenAgents.Enabled = false;
+            if (FormAuthorization.users.type == "agent")
+            {
+                buttonOpenAgents.Enabled = false;
+            }
             labelHello.Text = "Добро пожаловать, " + FormAuthorization.users.login + "!";
         }
 
