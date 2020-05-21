@@ -19,7 +19,7 @@ namespace Esoft_Project
             {
                 buttonOpenAgents.Enabled = false;
             }
-            labelHello.Text = "Добро пожаловать, " + FormAuthorization.users.login + "! ";
+            labelHello.Text = "Добро пожаловать, " + FormAuthorization.users.login + "!";
         }
 
         private void Form1_Load(object sender, EventArgs e)
