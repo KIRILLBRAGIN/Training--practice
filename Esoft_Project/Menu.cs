@@ -12,14 +12,17 @@ namespace Esoft_Project
 {
     public partial class Menu : Form
     {
+
         public Menu()
         {
+
             InitializeComponent();
             if (FormAuthorization.users.type == "agent")
             {
                 buttonOpenAgents.Enabled = false;
             }
             labelHello.Text = "Добро пожаловать, " + FormAuthorization.users.login + "! ";
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
